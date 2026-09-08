@@ -1,7 +1,6 @@
 services:
-
   web:
-    image: ghcr.io/vitorfxp/meu-site:latest
+    image: meu-site:latest
 
     ports:
       - "8080:80"
